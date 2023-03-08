@@ -1,19 +1,3 @@
-/*
-
-Packet Sniffer is based on Beacon Sniffer. Changes made by Ben Dash
-
-// ESP32 WiFi beacon sniffer
-//
-// by Michele <o-zone@zerozone.it> Pinassi
-// https://github.com/michelep/ESP32_BeaconSniffer
-//
-// Sighly based on https://github.com/ESP-EOS/ESP32-WiFi-Sniffer, code written to work on ESP32 TTGO with OLED display SSD1306 I2C 
-//
-// Build with TTGO-LoRa32-OLED V1 Arduino template
-// 
-// https://www.espressif.com/en/products/hardware/esp32-devkitc/resources
-*/
-
 #include <FreeRTOS.h>
 #include <WiFi.h>
 #include <esp_wifi.h>
@@ -31,8 +15,8 @@ Packet Sniffer is based on Beacon Sniffer. Changes made by Ben Dash
 #define WIFI_CHANNEL_SWITCH_INTERVAL  (500)
 #define WIFI_CHANNEL_MAX               (13)
 
-const char* ssid = "XXXXXXX";
-const char* password = "XXXXXXXXXX";
+const char* ssid = "XXXXXX";
+const char* password = "XXXXXXXXX";
 
 // setting PWM properties
 const int freq = 5000;
